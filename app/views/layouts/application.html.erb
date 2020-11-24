@@ -11,9 +11,12 @@
 </head>
 
 <body>
-  <%= render 'layouts/messages' %>
-  <div class="container">
-    <%= yield %>
+  <%= render 'layouts/header' %>
+  <div class="bg-light">
+    <div class="container py-5">
+      <%= render 'layouts/messages' %>
+      <%= yield %>
+    </div>
   </div>
 </body>
 
